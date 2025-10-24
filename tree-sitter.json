@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "dlp",
+      "camelcase": "Dlp",
+      "title": "Dolphin",
+      "scope": "source.dlp",
+      "file-types": [
+        "dlp"
+      ],
+      "injection-regex": "^dlp$",
+      "class-name": "TreeSitterDlp"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Dlp grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Tobias Johansen",
+        "email": "tobias@tophoej.dk",
+        "url": "https://tophoej.dk/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/zogrethrow/dlp.nvim"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
