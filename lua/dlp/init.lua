@@ -7,7 +7,6 @@ function M.setup()
 		install_info = {
 			url = "https://github.com/zogrethrow/dlp.nvim",
 			files = { "parser/parser.c" },
-			branch = "main",
 		},
 		filetype = "dlp",
 	}
