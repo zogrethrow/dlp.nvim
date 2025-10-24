@@ -1,0 +1,10 @@
+{
+  "name": "tree-sitter-dlp",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for the Dolphin language",
+  "main": "bindings/node",
+  "scripts": {
+    "build": "tree-sitter generate"
+  },
+  "license": "MIT"
+}
